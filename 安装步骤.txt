@@ -1,0 +1,12 @@
+1.下载
+https://github.com/vuejs/vue-devtools
+2.进入vue-devtools-master工程  执行npm install ----->npm run build.
+3.修改mainifest.json 中的persistant为true
+输入chrome://extensions/直接进入扩展程序
+4.打开谷歌浏览器设置--->扩展程序--》勾选开发者模式---》点击“加载已解压的扩展程序...”按钮，添加工程中的shells-->chrome文件夹下的内容，至此恭喜已经安装成功！！！
+
+5.打开自己的vue项目中，如果是有vue-cli构建的项目，执行npm run dev,打开http://localhost:8080/ 服务器调试地址；至此完成devtools的安装；
+
+最后
+当我们添加完vue-devtools扩展程序之后，我们在调试vue应用的时候，chrome开发者工具中会看一个vue的一栏，点击之后就可以看见当前页面vue对象的一些信息。vue-devtools使用起来还是比较简单的，上手非常的容易，这里就细讲其使用说明了。
+打开个vue写的项目，f12打开调试工具即可进行vue项目的调试。
